@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="minion-ascii.svg" alt="Animated text-art Minion." width="700">
+  <img src="./minion-ascii.svg" alt="Animated text-art Minion." width="850">
 </p>
 
 <h1 align="center">Mitchel Tu</h1>
