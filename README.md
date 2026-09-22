@@ -44,6 +44,24 @@ Currently, I research NBA shot value and statistical modeling with UCI's Departm
 
 ### The commit trail
 
+<p align="center">
+  <a href="https://github.com/mitcheltu?tab=overview">
+    <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="Latest pushes to Mitchel Tu's public repositories." width="700">
+  </a>
+</p>
+
+<details>
+<summary><strong>More numbers, fewer words</strong></summary>
+
+<p align="center">
+  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub statistics for mitcheltu." width="340">
+  <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Primary languages by original public repository count." width="340">
+</p>
+
+<sub>Saved in this repository and refreshed daily. Language usage describes repositories, not proficiency. <a href="https://github.com/mitcheltu/mitcheltu/actions/workflows/profile-cards.yml">Last refresh</a>.</sub>
+
+</details>
+
 Follow my [contribution history](https://github.com/mitcheltu?tab=overview) and explore the code in my [repositories](https://github.com/mitcheltu?tab=repositories).
 
 ### Start a conversation

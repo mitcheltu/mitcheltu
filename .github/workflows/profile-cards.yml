@@ -9,6 +9,7 @@ on:
     paths:
       - .github/workflows/profile-cards.yml
       - scripts/validate_profile_cards.py
+      - scripts/generate_profile_cards.py
 
 permissions:
   contents: write
@@ -23,19 +24,13 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Check out profile
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Generate cards
-        uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
+        run: python3 scripts/generate_profile_cards.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: mitcheltu
-          THEME: github_dark
-          AUTO_PUSH: false
-
-      # The generator may log an API error without failing its step.
-      # Validate the complete batch before committing anything.
+      # Publish only after the complete batch validates successfully.
       - name: Validate all displayed cards
         run: python3 scripts/validate_profile_cards.py
 
