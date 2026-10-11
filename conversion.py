@@ -17,7 +17,7 @@ def frame_to_ascii(image, width=60):
             ascii_str += "\n"
     return ascii_str, width, height
 
-def generate_animated_svg(gif_path, output_path="minion-ascii.svg", columns=92):
+def generate_animated_svg(gif_path, output_path="minion-ascii.svg", columns=120):
     """Create grayscale text art with fixed columns and discrete animated frames."""
     from html import escape
     from pathlib import Path
