@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./minion-ascii.svg" alt="Animated text-art Minion." width="850">
+  <img src="./minion-ascii.svg" alt="Animated text-art Minion." width="978">
 </p>
 
 <h1 align="center">Mitchel Tu</h1>
@@ -46,7 +46,7 @@ Currently, I research NBA shot value and statistical modeling with UCI's Departm
 
 <p align="center">
   <a href="https://github.com/mitcheltu?tab=overview">
-    <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="Bar chart of original public repositories grouped by latest push month." width="700">
+    <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="Bar chart of original public repositories grouped by latest push month." width="805">
   </a>
 </p>
 
@@ -54,8 +54,8 @@ Currently, I research NBA shot value and statistical modeling with UCI's Departm
 <summary><strong>More numbers, fewer words</strong></summary>
 
 <p align="center">
-  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="Horizontal bar chart of public repository, star, fork, and follower counts." width="340">
-  <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Donut chart of primary languages by original public repository count." width="340">
+  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="Horizontal bar chart of public repository, star, fork, and follower counts." width="391">
+  <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Donut chart of primary languages by original public repository count." width="391">
 </p>
 
 <sub>Saved in this repository and refreshed daily. Language usage describes repositories, not proficiency. <a href="https://github.com/mitcheltu/mitcheltu/actions/workflows/profile-cards.yml">Last refresh</a>.</sub>

@@ -12,6 +12,7 @@ from urllib.request import Request, urlopen
 from validate_profile_cards import CARD_DIRECTORY, validate_cards
 
 USERNAME = "mitcheltu"
+DISPLAY_SCALE = 1.15
 
 
 def github_json(path):
@@ -52,7 +53,7 @@ def text(x, y, value, size=14, color="#c9d1d9", weight="400"):
 
 
 def card(title, width, body, updated):
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="250" '
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width * DISPLAY_SCALE:g}" height="{250 * DISPLAY_SCALE:g}" '
             f'viewBox="0 0 {width} 250" role="img" aria-labelledby="title desc">'
             f'<title id="title">{escape(title)}</title>'
             f'<desc id="desc">Public GitHub data for {USERNAME}. Updated {updated} UTC.</desc>'
